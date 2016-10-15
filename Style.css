@@ -1,0 +1,80 @@
+<style>
+	.board{
+		height:50%;
+		width:50%;
+		display: inline-block;
+		max-width: 50%;
+		margin: auto;
+	}
+	.container {
+		max-width: 50%;
+		margin: auto;
+	}
+	.card{
+		height: 200px;
+		width: 150px;
+		background-color: yellow;
+		border-color: black;
+		border-style: solid;
+		border-radius: 10px;
+		float: left;
+		margin: 8%;
+	}
+	.queen{
+		height: 200px;
+		width: 150px;
+	}
+	img{
+		height: 200px;
+		width: 150px;
+	}
+	h1 {
+		color: rgb(2, 132, 130);
+	}
+	h2 {
+		color: #ffd700;
+	}
+	.name {
+		color: #B378D3;
+		float: center;
+	}
+	body {
+		text-align: center;
+	}
+	nav {
+		background-color: #808080;
+	}
+	a{
+		background-color: #ffbf00;
+		color: white;
+		padding: 35px;
+		display: block;
+		float: left;
+	}
+	a:hover {
+		background-color: #ee5f3c;
+	}
+	.tweet {
+		color: black;
+		background-color: white;
+		float: none;
+		display: inline-block;
+	}
+	.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+      }
+    .footer{
+    	text-align: center;
+    	background-color: #808080;
+    	 clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+    }
+</style>
